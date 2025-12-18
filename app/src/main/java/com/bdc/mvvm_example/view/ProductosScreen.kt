@@ -75,12 +75,12 @@ fun ProductosScreen(
                             modifier = Modifier.padding(16.dp)
 
                         ) {
-                            Text(
+                            Text( //Nombre del producto
                                 text = producto.nombre,
                                 style = MaterialTheme.typography.titleMedium
                             )
                             Spacer(modifier = Modifier.height(8.dp))
-                            Text(
+                            Text( //Precio del producto
                                 text = "Precio: $${producto.precio}",
                                 style = MaterialTheme.typography.bodyMedium
                             )
